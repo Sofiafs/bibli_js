@@ -1,0 +1,106 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #1a1932;
+}
+
+.container .title {
+    color: #7c7a7a;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 600px;
+
+    padding: 285px 0px;
+
+}
+
+
+
+.campos .input-box input {
+    height: 45px;
+    color:#ffffff;
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ababab;
+
+}
+
+
+input[type="text"],
+textarea,
+textarea::placeholder,
+input::placeholder {
+    font-size: large;
+    padding: 5px;
+    color: #7c7a7a;
+}
+
+.button .btn-concluir {
+    height: 100%;
+    list-style-type: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    outline: none;
+    color: #7c7a7a;
+    background: #ababab;
+    letter-spacing: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button .btn-concluir {
+    height: 50px;
+    margin: 20px 0;
+}
+
+.button .btn-concluir {
+    background-color: #ababab;
+}
+
+.button {
+    height: 50px;
+    margin: 20px 0;
+}
+.button  {
+    height: 100%;
+    list-style-type: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    outline: none;
+    color: #7c7a7a;
+    background: #ababab;
+    letter-spacing: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.button {
+    background-color: #ababab;
+}
+
+
+
+
+
+
+
