@@ -40,11 +40,19 @@ class Biblioetca{
 // biblioteca.exibirLivros();
 // document.write()
 
+document.addEventListener("DOMContentLoaded", () => {
+    const biblioteca
+})
 const btnAdd = document.querySelector('.btnAdd');
 btnAdd.addEventListener('click', () => {
 
-const input_box = document.querySelector('.input_box');
-let titulo = parseFloat(document.getElementById('#titulo')).value;
+    const titulo = document.getElementById('titulo').value;
+
+    if (titulo) {
+        const novolivro = new Livro(titulo);
+        biblioetca.adicionarLivros(novolivro);
+
+    }
 
 console.log('conexão realizada!!!!');
 
