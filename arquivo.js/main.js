@@ -4,7 +4,7 @@ class Livro{
         console.log("Novo livro adicionado")
     }
     
-    exibir(){
+    exibirInformacoes(){
         console.log('titulo: ${this.titulo}');
     }
 }
@@ -19,4 +19,38 @@ class Biblioetca{
     removerLivro(livro){
         this.livros = this.livros.filter(livro => livro.aluno != livro);
     }
+    exibirLivros(){
+        this.livros.forEach(livro => livro.exibirInformacoes());
+    }
 }
+
+// let biblioteca = new Biblioetca();
+// let livro1 = new Livro('O Senhor dos Anéis');
+// biblioteca.adicionarLivros(livro1);
+
+// let livro2 = new Livro('Diário de Anne Frank');
+// biblioteca.adicionarLivros(livro2);
+
+// console.log('Livros na biblioteca:');
+// biblioteca.exibirLivros();
+
+// biblioteca.removerLivro(1);
+
+// console.log('Livros após remoção: ');
+// biblioteca.exibirLivros();
+// document.write()
+
+const btnAdd = document.querySelector('.btnAdd');
+btnAdd.addEventListener('click', () => {
+
+const input_box = document.querySelector('.input_box');
+let titulo = parseFloat(document.getElementById('#titulo')).value;
+
+console.log('conexão realizada!!!!');
+
+
+console.log(titulo);
+document.write(titulo)
+
+
+})
